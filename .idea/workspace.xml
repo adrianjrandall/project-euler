@@ -14,6 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/project-euler$problem_004.coverage" NAME="problem_004 Coverage Results" MODIFIED="1408383868010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project-euler$problem_001.coverage" NAME="problem_001 Coverage Results" MODIFIED="1408380151664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project-euler$problem_005.coverage" NAME="problem_005 Coverage Results" MODIFIED="1408388367135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project-euler$problem_002.coverage" NAME="problem_002 Coverage Results" MODIFIED="1408380608705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project-euler$problem_003.coverage" NAME="problem_003 Coverage Results" MODIFIED="1408382085601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -39,11 +40,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problem_004.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="problem_004.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/problem_004.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.622905" vertical-offset="227" max-vertical-offset="585">
+            <state vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="585">
               <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+              <folding>
+                <marker date="1408383867000" expanded="true" signature="23:239" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1408383867000" expanded="true" signature="305:484" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="problem_005.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/problem_005.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8743017" vertical-offset="392" max-vertical-offset="795">
+              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -64,6 +78,7 @@
         <option value="$PROJECT_DIR$/problem_002.py" />
         <option value="$PROJECT_DIR$/problem_003.py" />
         <option value="$PROJECT_DIR$/problem_004.py" />
+        <option value="$PROJECT_DIR$/problem_005.py" />
       </list>
     </option>
   </component>
@@ -130,7 +145,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="Python.problem_004">
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.problem_005">
     <configuration default="false" name="problem_001" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,6 +222,25 @@
       <module name="project-euler" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_004.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="problem_005" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="project-euler" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/problem_005.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -357,18 +396,20 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.problem_001" />
       <item index="1" class="java.lang.String" itemvalue="Python.problem_002" />
       <item index="2" class="java.lang.String" itemvalue="Python.problem_003" />
       <item index="3" class="java.lang.String" itemvalue="Python.problem_004" />
+      <item index="4" class="java.lang.String" itemvalue="Python.problem_005" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.problem_004" />
-        <item index="1" class="java.lang.String" itemvalue="Python.problem_003" />
-        <item index="2" class="java.lang.String" itemvalue="Python.problem_002" />
-        <item index="3" class="java.lang.String" itemvalue="Python.problem_001" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.problem_005" />
+        <item index="1" class="java.lang.String" itemvalue="Python.problem_004" />
+        <item index="2" class="java.lang.String" itemvalue="Python.problem_003" />
+        <item index="3" class="java.lang.String" itemvalue="Python.problem_002" />
+        <item index="4" class="java.lang.String" itemvalue="Python.problem_001" />
       </list>
     </recent_temporary>
   </component>
@@ -459,8 +500,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/problem_004.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.622905" vertical-offset="227" max-vertical-offset="585">
+        <state vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="585">
           <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <marker date="1408383867000" expanded="true" signature="23:239" placeholder="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1408383867000" expanded="true" signature="305:484" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/problem_005.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8743017" vertical-offset="392" max-vertical-offset="795">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
           <folding />
         </state>
       </provider>
